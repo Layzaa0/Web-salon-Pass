@@ -1,0 +1,125 @@
+body {
+    background-color: #effdef;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    width: 320px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+
+.n1 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.container a {
+    display: block;
+    text-decoration: none;
+    background-color: #77af90;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+
+.container a:hover {
+    background-color: #496c59;
+}
+
+/* Título da página de serviços */
+.titulo {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Lista de serviços */
+.lista-servicos {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+/* Cada serviço */
+.lista-servicos li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    color: #444;
+}
+
+/* Botão voltar */
+.container a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #77af90;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+/* Hover */
+.container a:hover {
+    background-color: #496c59;
+}
+
+/* ===== FORMULÁRIO DE AGENDAMENTO ===== */
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+/* Rótulos */
+.formulario label {
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+}
+
+/* Campos */
+.formulario input,
+.formulario select {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Botão */
+.formulario button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #496c59;
+    color: #fff;
+    border: none;
+   border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Hover do botão */
+.formulario button:hover {
+    background-color: #496c59;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento - WebPass</title>
+    <link rel="stylesheet" href="../src/assets/css/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 class="titulo">Agendamento</h1>
+        
+
+<form class="formulario" id="formAgendamento">
+
+    <label>Nome do cliente</label>
+    <input type="text" id="nome" required>  
+
+    <label>Tipo de serviço</label>
+    <select id="servico" required>
+        <option value="">Selecione</option>
+        <option>Corte de cabelo</option>
+        <option>Escova</option>
+        <option>Coloração</option>
+        <option>Manicure e Pedicure</option>
+    </select>
+
+    <label>Data</label>
+    <input type="date" id="data" required>
+
+<label>Horários disponíveis</label>
+<select id="horario" required>
+    <option value="">Selecione</option>
+    <option>08:40</option>
+    <option>13:20</option>
+    <option>17:30</option>
+    <option>22:00</option>
+</select>
+
+
+
+
+    <button type="submit">Confirmar Agendamento</button>
+
+</form>
+
+
+        <a href="servicos.html">Voltar</a>
+
+    </div>
+<script src="../src/assets/js/agendamento.js"></script>
+
+
+</body>
+</html>
